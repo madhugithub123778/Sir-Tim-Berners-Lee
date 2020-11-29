@@ -1,0 +1,43 @@
+body{
+margin:0;padding-top:500px;text-align:center;background-color: aquamarine;}
+.menu{
+position: absolute;cursor: pointer;z-index: 10;top:10px;list-style: none;right:30px;}
+
+.list{
+float:left;padding-top:5px;padding-bottom: 5px;padding-left: 10px;padding-right: 10px;font-size: 15px;color:purple;font-weight:bold;}
+.img{
+ width:200px;height:200px;border-radius:50%;margin-bottom:50px;}
+.list:hover{
+font-size:20px;background-color:goldenrod;}
+
+#welcome{
+position:absolute;left:0;top:0;right:0;bottom:0;background:linear-gradient(#00FFFF	10%,#008080	30%,#0000FF	50%,#23ACCD 100%);  
+    width:100%;display:table;z-index: 9;
+
+
+}
+.inner{
+ text-align: center;   
+    
+}
+h1{
+font-size:40px;font-family:fantasy;color:floralwhite;font-weight:bold;padding-top: 10px
+    
+    
+}
+h2{
+font-weight:bold;color:aliceblue;font-family:monospace;font-size:25px;}
+
+.line{
+ background-color: rebeccapurple;width:200px;margin:3px auto;height:6px}
+
+#para{
+text-align:center;background-color:greenyellow;}
+
+p{
+font-size:20px;color:navy;line-height: 1.5;max-width: 800px;margin:25px auto;}    
+    
+.article:hover{
+ font-size: 25px;color:fuchsia;   
+    
+}
